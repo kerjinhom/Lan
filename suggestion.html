@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <link rel="icon" href="https://cdn.discordapp.com/icons/637793729285062676/b87dbac1820e97fd52261546c8826f78.png?size=96">
+  <meta charset="UTF-8">
+  <title>Lan - 建議</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="container">
+    <div class="title">
+        建議
+    </div>
+    <div>(内容被洗白代表已提交)</div>
+    <div class="content">
+      <form action="">
+        <div class="user-details">
+          <div class="input-box2">
+            <span class="details">標題</span> <input for="name" type="text" name="name" id="name" required>
+          </div>
+          <div class="input-box2">
+            <span class="details">詳細內容</span> <input for="roblox" type="text" name="roblox" id="roblox" required>
+          </div>
+        </div>
+        <div class="button">
+          <button class="button" onclick="sendMessage()">提交</button>
+          <script src="javascript.js"></script>
+        </div>
+      </form>
+      <a style="text-decoration: none;" href="index.html">
+  <div class="xyz">返回</div> 
+  </a>
+    </div>
+  </div>
+</body>
+<script>
+   document.onkeydown = function(e) {
+  if(event.keyCode == 123) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+     return false;
+  }
+}
+</script>
+</html>
