@@ -8,7 +8,7 @@ function sendMessage() {
     document.getElementById("roblox").value = "";
 
     request.open(
-      "POST","https://discord.com/api/webhooks/926050211078488064/RnzdhojklxI3e_6749WsbIkYfCHb6kLBGHs9H6JNsKXVxHLIioq6ch3aqcZCnX-9r92M"
+      "POST","https://discord.com/api/webhooks/926778986636410891/UH8MoEZJ0j5wSsFSaU6oKgCLVrh-agsgLctdS6zeUkj-esVtbImZbRNXa76TDD93FVsu"
     );
 
     request.setRequestHeader("Content-type", "application/json");
