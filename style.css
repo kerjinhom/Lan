@@ -2,6 +2,7 @@
 
 
 *{
+  color: white;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,7 +14,7 @@
   max-width: 700px;
   height: 50px;
   width: 100%;
-  background-color: #111;
+  background-color: rgb(24, 24, 24);
   border-radius: 10px;
   border: none;
   text-align: center;
@@ -42,13 +43,13 @@ body{
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  background: #2C2F33;
 }
 .container{
   margin: 10px;
   max-width: 700px;
   width: 100%;
-  background-color: #fff;
+  background-color: #484b50;
   padding: 25px 30px;
   border-radius: 10px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.15);
@@ -58,16 +59,7 @@ body{
   font-weight: 500;
   position: relative;
 }
-.container .title::before{
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 3px;
-  width: 30px;
-  border-radius: 10px;
-  background: linear-gradient(135deg, #71b7e6, #9b59b6);
-}
+
 .content form .user-details{
   display: flex;
   flex-wrap: wrap;
@@ -130,14 +122,12 @@ form .input-box span.details{
 }
 .user-details .input-box2 input{
   height: 45px;
-  width: 100%;
+  width: 213%;
   outline: none;
   font-size: 16px;
   border-radius: 10px;
   padding-left: 15px;
-  border: 1px solid #ccc;
-  border-bottom-width: 2px;
-  transition: all 0.3s ease;
+  border: 0px solid #ccc;
 }
 .user-details .input-box input{
   height: 45px;
@@ -146,9 +136,7 @@ form .input-box span.details{
   font-size: 16px;
   border-radius: 10px;
   padding-left: 15px;
-  border: 1px solid #ccc;
-  border-bottom-width: 2px;
-  transition: all 0.3s ease;
+  border: 0px solid #ccc;
 }
 .user-details .input-box input{
   height: 45px;
@@ -157,14 +145,10 @@ form .input-box span.details{
   font-size: 16px;
   border-radius: 10px;
   padding-left: 15px;
-  border: 1px solid #ccc;
-  border-bottom-width: 2px;
-  transition: all 0.3s ease;
 }
 
-.user-details .input-box2 input:focus,
-.user-details .input-box2 input:valid{
-  border-color: #9b59b6;
+.user-details .input-box2 input{
+ background-color: #202225;
 }
  form .gender-details .gender-title{
   font-size: 20px;
@@ -198,10 +182,12 @@ form .input-box span.details{
    display: none;
  }
  form .button{
+    width: 100%;
    height: 45px;
  }
  .button {
-  background-color: #111; /* Green */
+  width: 100%;
+  background-color: rgb(24, 24, 24); /* Green */
   border: none;
   color: white;
   border-radius: 10px;
@@ -235,4 +221,8 @@ form .user-details .input-box2{
   .container .content .category{
     flex-direction: column;
   }
+}
+
+.none{
+  text-decoration: none;
 }
